@@ -32,24 +32,21 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "rescript": "^10.0.0",
     "@glennsl/bs-jest": "^0.7.0",
-    "bs-bastet": "^2.0.0",
+    "bs-bastet": "github:dsiu/bastet#rescript-v10",
     "docsify-cli": "~4.4.0"
   },
   "peerDependencies": {
-    "bs-bastet": "^2.0.0"
+    "bs-bastet": "github:dsiu/bastet#rescript-v10"
   },
   "dependencies": {
-    "bisect_ppx": "^2.7.1"
   },
   "jest": {
     "verbose": false,
     "testPathIgnorePatterns": [
       "/node_modules/",
       "/testUtils/"
-    ],
-    "setupFilesAfterEnv": [
-      "<rootDir>/_build/default/node_modules/bisect_ppx/src/runtime/js/jest.bs.js"
     ]
   }
 }

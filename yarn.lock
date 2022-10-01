@@ -859,11 +859,6 @@ binary-extensions@^2.0.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
-bisect_ppx@^2.1.0, bisect_ppx@^2.7.1:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/bisect_ppx/-/bisect_ppx-2.7.1.tgz#8fde3e6f767a1a4ca190a266d0bd38800b088f66"
-  integrity sha512-e8gRgfhmCptiyGGov+54Acah+rc+svm0yc/26mn+M6CCNDADufVLMgRaG1uw3LAHm/PFPy+zGFAKMwd6lD2O2g==
-
 boxen@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/boxen/-/boxen-4.2.0.tgz#e411b62357d6d6d36587c8ac3d5d974daa070e64"
@@ -925,12 +920,10 @@ browserslist@^4.20.2:
     node-releases "^2.0.3"
     picocolors "^1.0.0"
 
-bs-bastet@^2.0.0:
+"bs-bastet@github:dsiu/bastet#rescript-v10":
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/bs-bastet/-/bs-bastet-2.0.0.tgz#e3b568b8b4142610cdcf9c74a304aa50968e3670"
-  integrity sha512-rMD0EanbBIQaIml3JxFTLQTIQoWMM8I6wFg2fBncvlguyzMLNG6Lg8oV2C7hvtcvceAn1bBF+X1UkV+KM60Vmw==
+  resolved "https://codeload.github.com/dsiu/bastet/tar.gz/dd4032ed49289a781613ca10b86535e3bef0b90d"
   dependencies:
-    bisect_ppx "^2.1.0"
     bs-stdlib-shims "^0.1.0"
 
 bs-stdlib-shims@^0.1.0:
@@ -3450,6 +3443,11 @@ require-main-filename@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/require-main-filename/-/require-main-filename-2.0.0.tgz#d0b329ecc7cc0f61649f62215be69af54aa8989b"
   integrity sha512-NKN5kMDylKuldxYLSUfrbo5Tuzh4hd+2E8NPPX02mZtn1VuREQToYe/ZdlJy+J3uCpfaiGF05e7B8W0iXbQHmg==
+
+rescript@^10.0.0:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/rescript/-/rescript-10.0.1.tgz#5b2da8a8bcfb994bed1eb24820bf10cfb9d8c440"
+  integrity sha512-XwO1GPDtoEU4H03xQE5bp0/qtSVR6YLaJRPxWKrfFgKc+LI36ODOCie7o9UJfgzQdoMYkkZyiTGZ4N9OQEaiUw==
 
 resolve-cwd@^3.0.0:
   version "3.0.0"
